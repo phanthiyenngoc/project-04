@@ -1,0 +1,138 @@
+.footer__inner {
+  display: flex;
+  gap: 129px;
+}
+.bgleft {
+  background: #fff6ed;
+  z-index: -1;
+  position: absolute;
+  top: 126px;
+  right: 0%;
+  width: 615px;
+  height: 516px;
+}
+.footer_left {
+  /* background: #fff6ed; */
+  position: relative;
+  max-width: 615px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-right: 212px;
+  padding-top: 121px;
+}
+
+.footer__logo {
+  width: 103px;
+  height: 37px;
+}
+
+.footer__left--search {
+  margin-top: 40px;
+  margin-bottom: 68px;
+  display: inline-block;
+  width: 268px;
+  height: 46px;
+  background: #ffffff;
+
+  border: 1px solid rgba(255, 91, 46, 0.25);
+  border-radius: 23px;
+}
+.footer__left--search::placeholder {
+  padding-left: 22px;
+}
+
+.footer__left-arrow-right {
+  width: 45px;
+  height: 46px;
+  background: #ff5b2e;
+  box-shadow: 0px 15px 28px -7px rgba(255, 91, 46, 0.3);
+  border-radius: 22.5px;
+  position: relative;
+  top: -114px;
+  left: 223px;
+}
+
+.footer__left-arrow-right-icon {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.footer__left--title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.11;
+  color: #000958;
+  margin-bottom: 16px;
+}
+
+.footer__left-group {
+  display: flex;
+}
+.footer__left-icon {
+  margin-right: 16px;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 16px 28px -10px rgba(211, 132, 53, 0.33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.footer__left-group--icon {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+}
+
+.footer__right {
+  width: 524px;
+  display: flex;
+  gap: 34px;
+  flex-wrap: wrap;
+  padding-top: 183px;
+}
+
+.footer__right--title {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.11;
+  color: #000958;
+  width: 161px;
+  margin-bottom: 14px;
+}
+
+.footer__right--link {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2;
+  color: #656689;
+  padding-bottom: 8px;
+  width: 222px;
+}
+.footer__right--link-left {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2;
+  color: #656689;
+  padding-bottom: 8px;
+  width: 211px;
+}
+
+.footer_dev {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.17;
+  color: #656689;
+  opacity: 0.5;
+  text-align: center;
+  margin-top: 18px;
+}
